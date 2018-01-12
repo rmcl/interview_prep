@@ -1,6 +1,8 @@
 class OptimalPunchcarding(object):
-    """Dynamic programming solution to finding an optimal set of punchcards to run
+    """Dynamic programming solution to find an optimal set of punchcards to run.
     
+    Original problem from: https://medium.freecodecamp.org/demystifying-dynamic-programming-3efafb8d4296
+
     Take two lists of length n representing n punchcards cost and value. 
     
     Call "get_most_value_punchcards" with "max_cost" to get a list of y punchcards
