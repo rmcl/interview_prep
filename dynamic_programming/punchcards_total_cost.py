@@ -2,6 +2,8 @@ class OptimalPunchcarding(object):
     """Dynamic programming solution to find an optimal set of punchcards to run.
     
     Original problem from: https://medium.freecodecamp.org/demystifying-dynamic-programming-3efafb8d4296
+    The original problem asked a similar question. I modified it to just find solutions that were less
+    than some cost value
 
     Take two lists of length n representing n punchcards cost and value. 
     
